@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pasteleria para gatos Yuki</title>
+</head>
+<body>
+    <h1>Bienvenido a la 1era pastelería para gatos del mundo</h1>
+    <img src="./img/bakery.png" alt="Perritos lindos" width="350px" height="350px">
+    <p>Av lomas del Pedregoso 342, INFONAVIT Pedregoso, 76808 San Juan del Río, Qro.</p>
+    <p>tel: 5458584144</p>
+    <p>horarios de atención L-V 8-19 hrs</p>
+    <br><br>
+    <H2>Contamos con los siguientes sabores de pasteles especialmente diseñados para tu gato</H2>
+    <ul>
+        <li>Atún................................$200</li>
+        <li>Salmon..............................$300</li>
+        <li>Pollo...............................$350</li>
+        <li>Carne...............................$400</li>
+    </ul>
+    <h2>Asi mismo contamos con los siguientes adornos</h2>
+    <ul>
+        <li>Ratón................................$15</li>
+        <li>Aves.................................$30</li>
+        <li>Pescados.............................$40</li>
+        <li>Insectos.............................$20</li>
+    </ul>
+
+    <h2>Ordena Aquí</h2>
+    <form action="/accion.js" id="form1" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Mi nombre"><br><br>
+        <label for="telefono">Teléfono:</label>
+        <input type="text" id="telefono" name="telefono" placeholder="555555555"><br><br>
+        <label for="correo">Correo:</label>
+        <input type="text" id="correo" name="correo" placeholder="correo@correo.com"><br><br>
+        <label for="detalles">Danos notas especiales de tu pastel:</label>
+        <input type="text" id="detail" name="detail" placeholder="3 pisos enpacado en caja grande"><br><br>
+        <h2>Selecciona el sabor de tu pastel (puedes combinarlos)</h2>
+        <br><br>
+        <input type="checkbox" id="sabor1" name="sabor1" value="Atún">
+        <label for="sabor1">Atún</label><br>
+        <input type="checkbox" id="sabor2" name="sabor2" value="Salmon">
+        <label for="sabor2">Salmon</label><br>
+        <input type="checkbox" id="sabor3" name="sabor3" value="Pollo">
+        <label for="sabor3">Pollo</label><br>
+        <input type="checkbox" id="sabor4" name="sabor4" value="Carne">
+        <label for="sabor4">Carne</label><br><br>
+        <br><br>
+        <h2>Selecciona lost toppings de tu pastel (puedes combinarlos)</h2>
+        <br><br>
+        <input type="checkbox" id="top1" name="top1" value="Ratón">
+        <label for="top1">Ratón</label><br>
+        <input type="checkbox" id="top2" name="top2" value="Aves">
+        <label for="top2">Aves</label><br>
+        <input type="checkbox" id="top3" name="top3" value="Pescados">
+        <label for="top3">Pescados</label><br>
+        <input type="checkbox" id="top4" name="top4" value="Insectos">
+        <label for="top4">Insectos</label><br><br>
+        <br><br>
+        <input type="submit" value="Submit">
+        <input type="reset">
+    </form>
+</body>
+</html>
